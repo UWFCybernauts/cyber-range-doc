@@ -3,9 +3,9 @@
 This system is *_NOT_* live
 
 ### Role:
-ECommerce using a webserver.
-in DMZ.
-Paired with a Debian based DNS server (also in DMZ).
+ECommerce using a webserver.  
+in DMZ.  
+Paired with a Debian based DNS server (also in DMZ).  
 
 ### System Details:
 * Kernel Version: (TODO)
@@ -27,28 +27,28 @@ Paired with a Debian based DNS server (also in DMZ).
 * None
 
 ### Services:
-#### ACTIVE:
+##### ACTIVE:
 * LAMP stack
     * Linux -> (TODO)
     * Apache -> (TODO)
     * MariaDB -> (TODO)
     * PHP -> (TODO)
 * Firewalld -> (TODO)
-#### INACTIVE:
+##### INACTIVE:
 * Networking is still pretty iffy. THANKS @CentOS
 * Software Policy / User Policy -> disabled by default.
 * Connection rate limiter. -> disabled by default.
 
-#### Changes from default setup:
+### Changes from default setup:
 * MariaDB
     * Root password assigned for DB admin. Same as the root user on the system.
     * Generic remote user creation disabled 
 
 ### Users (username / password):
-#### Privelaged Users:
+##### Privelaged Users:
 * root
     * toor
-#### Unprivelaged users:
+##### Unprivelaged users:
 * user
     * resu
 
