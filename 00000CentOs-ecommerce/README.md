@@ -3,25 +3,20 @@
 This system is *_NOT_* live
 
 ### Role:
-ECommerce using a webserver.  
-in DMZ.  
-Paired with a Debian based DNS server (also in DMZ).  
+* ECommerce using a webserver.  
+* in DMZ.  
+* Paired with a Debian based DNS server (also in DMZ).  
 
 ### System Details:
-* Kernel Version: (TODO)
-* Firewalld Version: (TODO)
+* Kernel Version: 3.10.0
+* Firewalld Version: 0.4.4.4
 * EXT4 FS
 * 1GB Swap
-* 1 CPU core: (TODO)
+* 1 CPU core
 
-### Firewalld rules (IN:OUT) 
-##### OVERALL POLICY ALLOW:ALLOW
-* localhost on loopback
-    * ALLOW:ALLOW
-* LAN to localhost
-    * ALLOW:ALLOW
-* WAN to localhost
-    * ALLOW:ALLOW
+### Firewalld rules 
+* In default public zone
+* Allowing ssh https http dhcpv6-client
 
 ### Notable installed tools:
 * None
@@ -29,13 +24,13 @@ Paired with a Debian based DNS server (also in DMZ).
 ### Services:
 ##### ACTIVE:
 * LAMP stack
-    * Linux -> (TODO)
-    * Apache -> (TODO)
-    * MariaDB -> (TODO)
-    * PHP -> (TODO)
-* Firewalld -> (TODO)
+    * Linux -> 3.10.0
+    * Apache -> 2.4.6
+    * MariaDB -> 15.1
+    * PHP -> 5.4.16
+* Firewalld -> 0.4.4.4
+* Ethernet connects on boot
 ##### INACTIVE:
-* Networking is still pretty iffy. THANKS @CentOS
 * Software Policy / User Policy -> disabled by default.
 * Connection rate limiter. -> disabled by default.
 
@@ -43,6 +38,7 @@ Paired with a Debian based DNS server (also in DMZ).
 * MariaDB
     * Root password assigned for DB admin. Same as the root user on the system.
     * Generic remote user creation disabled 
+    * Simple ecom database with one table called Passwords :)
 
 ### Users (username / password):
 ##### Privelaged Users:
