@@ -1,6 +1,14 @@
-### This is the repo holding the Cyber Range documentation for UWF CyberNaughts
+### This is the repo holding the documentation for the UWF CyberNauts CyberRange!
 
 This is work in progress documenation.  
 For updates, see Michael.
 
-This repo and project is on hold until the FC2 research grant gets their server.
+#### Current status:  
+The club has acquired it's own servers. Currently the plans are to run 
+both servers as ProxMox CE virtualization servers. We are waiting on
+deployment of the first of the two before continuing work. The second
+server is slated for finalization and deployment by the end of
+Fall semester 2018. 
+
+> Current server administration is overseen by both Thomas Thibaut and Michael Mitchell. See them for more details or questions.
+
