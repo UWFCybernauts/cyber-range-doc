@@ -1,4 +1,4 @@
-### This is the repo holding the documentation for the UWF CyberNauts CyberRange!
+### UWF CyberNauts CyberRange Documentation
 
 This is work in progress documenation.  
 For updates, see Michael.
